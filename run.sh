@@ -1,0 +1,1 @@
+docker run --name appbackend -d incubator2024-appbackend

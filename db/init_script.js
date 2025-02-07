@@ -1,9 +1,10 @@
+
+// db.createUser({
+//   user: "admin",
+//   pwd: "password",
+//   roles: [{ role: "readWrite", db: "platformsdb" }],
+// });
 db = db.getSiblingDB("platformsdb");
-db.createUser({
-  user: "admin",
-  pwd: "password",
-  roles: [{ role: "readWrite", db: "platformsdb" }],
-});
 db.createCollection("platforms");
 db.platforms.insertMany([
   {

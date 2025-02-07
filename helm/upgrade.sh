@@ -1,0 +1,1 @@
+helm upgrade incubator2024-appbackend .

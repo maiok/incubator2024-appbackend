@@ -1,0 +1,1 @@
+docker push maiok/incubator2024-appbackend

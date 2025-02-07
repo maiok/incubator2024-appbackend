@@ -1,0 +1,1 @@
+docker stop appbackend && docker rm appbackend

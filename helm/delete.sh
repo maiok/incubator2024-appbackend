@@ -1,0 +1,1 @@
+helm delete incubator2024-appbackend
